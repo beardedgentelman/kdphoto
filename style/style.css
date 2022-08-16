@@ -947,9 +947,9 @@
         -o-border-radius: 55px;
     }
 }
-@media screen and (min-width: 480px) and (max-width: 768px) and (orientation : landscape) {
+@media screen and (min-width: 480px) and (max-width: 768px) and (max-height: 420px) and (orientation : landscape) {
     .hero-content {
-        padding-top: 220px;
+        padding-top: 200px;
         padding-bottom: 70px;
     }
     .nav__list {
