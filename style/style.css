@@ -262,12 +262,14 @@
     font-size: 8px;
 }
 .desc__price {
+    position: relative;
     font-weight: 600;
     font-size: 22px;
     line-height: 114%;
     letter-spacing: 0.07em;
     color: #6C6D52;
     margin-top: 30px;
+    z-index: 3;
 }
 .individual-photo {
     position: absolute;
@@ -292,10 +294,13 @@
     margin: 60px 0 40px;
 }
 .wedd-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     overflow: hidden;
     padding: 30px 40px;
     width: 340px;
-    height: 310px;
+    height: 460px;
     background-color: #FFFFFF;
     box-shadow: 0px 5px 30px 5px rgba(63, 81, 55, 0.2);
 }
@@ -314,6 +319,9 @@
     position: relative;
     font-size: 12px;
     z-index: 3;
+}
+.wedd-card .desc__price {
+    margin-top: 0;
 }
 .wedd-additions {
     font-size: 10px;
@@ -539,7 +547,7 @@
         left: -5px;
     }
     .wedd-card {
-        height: 360px;
+        height: 480px;
     }
     .up__arrow {
         padding: 25px;
@@ -678,7 +686,7 @@
         background-size: 15%;
     }
     .wedd-card {
-        height: 440px;
+        height: 500px;
     }
     .wedd-title {
         background-size: 6%;
@@ -687,6 +695,9 @@
     }
     .wedd-additions {
         font-size: 8px;
+    }
+    .wedd-card .desc__price {
+        font-size: 18px;
     }
     .desc__list-item {
         font-size: 12px;
@@ -909,6 +920,9 @@
     }
     .desc__list {
         width: 80%;
+    }
+    .wedd-card .desc__price {
+        margin-top: 20px;
     }
     .footer__content {
         padding-top: 30px;
