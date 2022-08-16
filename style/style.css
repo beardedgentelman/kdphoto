@@ -948,6 +948,10 @@
     }
 }
 @media screen and (min-width: 480px) and (max-width: 680px) {
+    .hero-content {
+        padding-top: 220px;
+        padding-bottom: 70px;
+    }
     .nav__list {
         padding: 60px 50px;
     }
