@@ -947,6 +947,11 @@
         -o-border-radius: 55px;
     }
 }
+@media screen and (min-width: 480px) and (max-width: 680px) {
+    .nav__list {
+        padding: 60px 50px;
+    }
+}
 @media screen and (max-width: 480px) {
     .section-title::before, .section-title::after {
         width: 30%;
