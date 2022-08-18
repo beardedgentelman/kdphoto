@@ -35,7 +35,7 @@
 }
 .main__hero{
     position: relative;
-    background: url('../img/hero-bg.jpg') no-repeat bottom 50% center/cover;
+    background: url('../img/hero-bg.webp') no-repeat bottom 50% center/cover;
     transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -178,7 +178,7 @@
     font-weight: 300;
     line-height: 156%;
     letter-spacing: 0.07em;
-    color: #000000;
+    color: #0E372B;
 }
 .about-me__text-item {
     margin-top: 20px;
@@ -186,7 +186,7 @@
 .about-me__signature {
     text-align: end !important;
     font-size: 14px !important;
-    line-height: 1;
+    line-height: 1.6;
     opacity: 0.8;
     max-width: 260px;
     margin: 20px 0 0 auto;
