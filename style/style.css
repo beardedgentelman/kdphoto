@@ -166,13 +166,14 @@
     align-items: center;
     justify-content: center;
     gap: 70px;
-    padding-top: 70px;
+    padding-top: 60px;
     padding-bottom: 60px;
 }
 .about-me__title {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+    text-indent: 0 !important;
 }
 .about-me__text {
     font-weight: 300;
@@ -182,6 +183,7 @@
 }
 .about-me__text-item {
     margin-top: 20px;
+    text-indent: 40px;
 }
 .about-me__signature {
     text-align: end !important;
@@ -222,6 +224,11 @@
 }
 .price-list__wrapper:last-child {
     margin: 0 0 30px 0;
+}
+.price-list__photo img {
+    max-width: 450px;
+    filter: drop-shadow(3px 6px 6px rgba(14, 55, 43, 0.6));
+    -webkit-filter: drop-shadow(3px 6px 6px rgba(14, 55, 43, 0.6));
 }
 .individual-wrapp {
     padding-top: 70px;
@@ -280,6 +287,7 @@
     font-size: 22px;
     line-height: 114%;
     letter-spacing: 0.07em;
+    text-align: end;
     color: #6C6D52;
     margin-top: 30px;
     z-index: 3;
@@ -672,8 +680,8 @@
         content: '';
     }
     .about-me__content-wrapper {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
         align-items: baseline;
         gap: 40px;
     }
@@ -722,7 +730,7 @@
     }
     .wedd-title {
         background-size: 6%;
-        background-position: top left 24%;
+        background-position: top left 28%;
         padding: 16px;
     }
     .wedd-additions {
@@ -900,7 +908,7 @@
         text-align: justify;
     }
     .individual-wrapp {
-        padding-top: 20px;
+        padding-top: 40px;
         flex-direction: column-reverse;
         gap: 10px;
     }
@@ -920,7 +928,7 @@
         text-align: center;
     }
     .price-list__photo img {
-        width: 80%;
+        width: 60%;
     }
     .price-list__desc {
         background-position: top center;
@@ -943,8 +951,9 @@
         gap: 15px;
     }
     .wedd-title {
-        background-position: top left 20%;
-        padding: 10px;
+        background-size: 8%;
+        background-position: top center;
+        padding: 60px 0 0;
     }
     .wedd-card {
         padding: 15px;
@@ -1059,9 +1068,7 @@
         margin-top: 20px;
     }
     .wedd-title {
-        background-size: 10%;
-        background-position: top left 6%;
-        padding: 12px;
+        background-size: 12%;
     }
     .contact-me__form {
         width: 100%;
